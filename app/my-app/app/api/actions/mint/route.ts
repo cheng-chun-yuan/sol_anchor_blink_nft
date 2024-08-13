@@ -23,8 +23,8 @@ import {
   
   import * as anchor from "@coral-xyz/anchor";
   
-  import ActionExampleJson from "../../../../../../target/idl/action_example.json";
-  import { type ActionExample } from "../../../../../../target/types/action_example";
+  import ActionExampleJson from "@/app/idl/action_example.json";
+  import { type ActionExample } from "@/app/idl/action_example";
   
   export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
